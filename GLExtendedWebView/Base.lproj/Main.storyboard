@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="EcB-Bm-FBJ">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -9,7 +9,23 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Navigation Controller-->
+        <scene sceneID="QlI-fm-unU">
+            <objects>
+                <navigationController storyboardIdentifier="navigationViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="EcB-Bm-FBJ" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="rwj-kf-pcm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="esh-tR-2Dw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="27X-9e-csO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-695" y="37"/>
+        </scene>
+        <!--GLExtendedWebView-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController storyboardIdentifier="viewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="GLExtendedWebView" customModuleProvider="target" sceneMemberID="viewController">
@@ -20,11 +36,28 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1FQ-pz-BfI" customClass="GLExtendedWebView" customModule="GLExtendedWebView" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="1FQ-pz-BfI" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="7Gy-Y4-cOa"/>
+                            <constraint firstItem="1FQ-pz-BfI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TXE-aV-qao"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="1FQ-pz-BfI" secondAttribute="bottom" id="es8-tx-aOV"/>
+                            <constraint firstItem="1FQ-pz-BfI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="qAF-vw-kHk"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="GLExtendedWebView" id="x64-bc-U5w"/>
+                    <connections>
+                        <outlet property="webView" destination="1FQ-pz-BfI" id="ZrO-ha-SGg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="100" y="35.532233883058474"/>
         </scene>
     </scenes>
 </document>
