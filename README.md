@@ -11,6 +11,7 @@
 [![license](https://img.shields.io/github/license/giulio92/GLTableCollectionView.svg)](https://github.com/giulio92/GLExtendedWebView/blob/master/LICENSE.txt)
 
 ## What it is
+GLExtendedWebView is a drop-in, ready to use, `WKWebView` subclass that brings Interface Builder compatibility to `WKWebView`, something that Apple forgot.
 
 ## Requirements
 - Xcode 8.0+
