@@ -11,5 +11,7 @@ import WebKit
 final class GLExtendedWebView: WKWebView {
 	required convenience init?(coder: NSCoder) {
 		self.init(frame: .zero, configuration: WKWebViewConfiguration())
+
+		translatesAutoresizingMaskIntoConstraints = false
 	}
 }
