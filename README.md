@@ -11,7 +11,10 @@
 [![license](https://img.shields.io/github/license/giulio92/GLTableCollectionView.svg)](https://github.com/giulio92/GLExtendedWebView/blob/master/LICENSE.txt)
 
 ## What it is
-GLExtendedWebView is a drop-in, ready to use, `WKWebView` subclass that brings Interface Builder compatibility to `WKWebView`, something that Apple [seems](http://www.openradar.me/23699297) to have forgot. If you try to search for a `WKWebView` in Interface Builder the only thing you can find is `UIWebView` which Apple itself does not recommend:
+GLExtendedWebView is a drop-in, ready to use, `WKWebView` subclass that brings Interface Builder compatibility to `WKWebView`, something that Apple [seems](http://www.openradar.me/23699297) to have forgot.
+
+### Why I created it
+If you try to search for a `WKWebView` in Interface Builder the only thing you can find is `UIWebView` which Apple itself does not recommend:
 
 From Apple's `WKWebView` [documentation](https://developer.apple.com/documentation/webkit/wkwebview):
 > **Important**
@@ -24,7 +27,7 @@ The other thing you can try is to create a `UIView` and change its class to `WKW
 init?(coder: NSCoder)
 ```
 
-has not been implemented in `WKWebView`
+has not been implemented in `WKWebView`. So you will probably end up creating it programmatically in your `UIViewController`, but in this way, unless you apply some `NSLayoutConstraint`s, it won't fit and/or update automatically upon rotation.
 
 ## Requirements
 - Xcode 8.0+
