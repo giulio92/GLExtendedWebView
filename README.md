@@ -11,12 +11,20 @@
 [![license](https://img.shields.io/github/license/giulio92/GLTableCollectionView.svg)](https://github.com/giulio92/GLExtendedWebView/blob/master/LICENSE.txt)
 
 ## What it is
-GLExtendedWebView is a drop-in, ready to use, `WKWebView` subclass that brings Interface Builder compatibility to `WKWebView`, something that Apple seems to have forgot. If you try to searck for a `WKWebView` in Interface Builder the only thing you can find is `UIWebView` which Apple itself does not recommend:
+GLExtendedWebView is a drop-in, ready to use, `WKWebView` subclass that brings Interface Builder compatibility to `WKWebView`, something that Apple [seems](http://www.openradar.me/23699297) to have forgot. If you try to search for a `WKWebView` in Interface Builder the only thing you can find is `UIWebView` which Apple itself does not recommend:
 
 From Apple's `WKWebView` [documentation](https://developer.apple.com/documentation/webkit/wkwebview):
 > **Important**
 >
 > Starting in iOS 8.0 and OS X 10.10, use WKWebView to add web content to your app. Do not use UIWebView or WebView.
+
+The other thing you can try is to create a `UIView` and change its class to `WKWebView` but also won't work because the required method:
+
+```
+init?(coder: NSCoder)
+```
+
+has not been implemented in `WKWebView`
 
 ## Requirements
 - Xcode 8.0+
