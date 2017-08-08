@@ -30,7 +30,7 @@ init?(coder: NSCoder)
 has not been implemented in `WKWebView`. So you will probably end up creating it programmatically in your `UIViewController`, but in this way, unless you apply some `NSLayoutConstraint`s, it won't fit the screen on every device and/or update automatically upon rotation.
 
 ### How to use / Installation
-1. Download the project
+1. [Download](https://github.com/giulio92/GLExtendedWebView/archive/master.zip) the project
 2. Add the `GLExtendedWebView` class to your project
 3. Add a `UIView` in your `UIViewController`
 4. Change the `UIView` class to `GLExtendedWebView`
