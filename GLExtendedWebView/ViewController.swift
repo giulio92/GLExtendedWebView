@@ -9,9 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
+	@IBOutlet weak var webView: GLExtendedWebView!
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view, typically from a nib.
+
+		if let appleWebsite: URL = URL(string: "https://www.apple.com") {
+			let urlRequest: URLRequest = URLRequest(url: appleWebsite)
+			webView.load(urlRequest)
+		}
 	}
 
 	override func didReceiveMemoryWarning() {
