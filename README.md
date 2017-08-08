@@ -2,8 +2,8 @@
 
 |**Branch**|**Status**|
 |:--------:|:--------:|
-|master|[![BuddyBuild](https://dashboard.buddybuild.com/api/statusImage?appID=5989d561311ed200016aec58&branch=master&build=latest)](https://dashboard.buddybuild.com/apps/5989d561311ed200016aec58/build/latest?branch=master)|
-|develop|[![BuddyBuild](https://dashboard.buddybuild.com/api/statusImage?appID=5989d561311ed200016aec58&branch=develop&build=latest)](https://dashboard.buddybuild.com/apps/5989d561311ed200016aec58/build/latest?branch=develop)|
+|master`|[![BuddyBuild](https://dashboard.buddybuild.com/api/statusImage?appID=5989d561311ed200016aec58&branch=master&build=latest)](https://dashboard.buddybuild.com/apps/5989d561311ed200016aec58/build/latest?branch=master)|
+|`develop`|[![BuddyBuild](https://dashboard.buddybuild.com/api/statusImage?appID=5989d561311ed200016aec58&branch=develop&build=latest)](https://dashboard.buddybuild.com/apps/5989d561311ed200016aec58/build/latest?branch=develop)|
 
 ![Language](https://img.shields.io/badge/language-Swift%203.x-orange.svg)
 ![Supported platforms](https://img.shields.io/badge/platform-iOS-lightgrey.svg)
