@@ -13,6 +13,8 @@
 		EF60C90C1F3A01D800C41CA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF60C90B1F3A01D800C41CA5 /* Assets.xcassets */; };
 		EF60C90F1F3A01D800C41CA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF60C90D1F3A01D800C41CA5 /* LaunchScreen.storyboard */; };
 		EF60C91A1F3A01D800C41CA5 /* GLExtendedWebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF60C9191F3A01D800C41CA5 /* GLExtendedWebViewTests.swift */; };
+		EF60C9251F3A051800C41CA5 /* GLExtendedWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF60C9241F3A051800C41CA5 /* GLExtendedWebView.swift */; };
+		EF60C9261F3A051800C41CA5 /* GLExtendedWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF60C9241F3A051800C41CA5 /* GLExtendedWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 		EF60C9151F3A01D800C41CA5 /* GLExtendedWebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GLExtendedWebViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF60C9191F3A01D800C41CA5 /* GLExtendedWebViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLExtendedWebViewTests.swift; sourceTree = "<group>"; };
 		EF60C91B1F3A01D800C41CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF60C9241F3A051800C41CA5 /* GLExtendedWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GLExtendedWebView.swift; path = Classes/GLExtendedWebView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,7 @@
 			children = (
 				EF60C9041F3A01D800C41CA5 /* AppDelegate.swift */,
 				EF60C9061F3A01D800C41CA5 /* ViewController.swift */,
+				EF60C9241F3A051800C41CA5 /* GLExtendedWebView.swift */,
 				EF60C9081F3A01D800C41CA5 /* Main.storyboard */,
 				EF60C90D1F3A01D800C41CA5 /* LaunchScreen.storyboard */,
 				EF60C90B1F3A01D800C41CA5 /* Assets.xcassets */,
@@ -200,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF60C9071F3A01D800C41CA5 /* ViewController.swift in Sources */,
+				EF60C9251F3A051800C41CA5 /* GLExtendedWebView.swift in Sources */,
 				EF60C9051F3A01D800C41CA5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF60C91A1F3A01D800C41CA5 /* GLExtendedWebViewTests.swift in Sources */,
+				EF60C9261F3A051800C41CA5 /* GLExtendedWebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
