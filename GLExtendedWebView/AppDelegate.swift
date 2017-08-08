@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  GLExtendedWebView
 //
-//  Created by Lombardo Giulio on 08/08/17.
+//  Created by Giulio Lombardo on 08/08/17.
 //  Copyright © 2017 Giulio Lombardo. All rights reserved.
 //
 

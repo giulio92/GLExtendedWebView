@@ -80,8 +80,8 @@
 				EF60C9041F3A01D800C41CA5 /* AppDelegate.swift */,
 				EF60C9061F3A01D800C41CA5 /* ViewController.swift */,
 				EF60C9081F3A01D800C41CA5 /* Main.storyboard */,
-				EF60C90B1F3A01D800C41CA5 /* Assets.xcassets */,
 				EF60C90D1F3A01D800C41CA5 /* LaunchScreen.storyboard */,
+				EF60C90B1F3A01D800C41CA5 /* Assets.xcassets */,
 				EF60C9101F3A01D800C41CA5 /* Info.plist */,
 			);
 			path = GLExtendedWebView;
@@ -408,6 +408,7 @@
 				EF60C9201F3A01D800C41CA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF60C9211F3A01D800C41CA5 /* Build configuration list for PBXNativeTarget "GLExtendedWebViewTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +417,7 @@
 				EF60C9231F3A01D800C41CA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
