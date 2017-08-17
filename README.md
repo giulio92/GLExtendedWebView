@@ -1,5 +1,9 @@
 # GLExtendedWebView
 
+<p align="center">
+    <img src="https://github.com/giulio92/GLExtendedWebView/blob/master/GitHub%20Page/Images/logo.png" width="675">
+</p>
+
 |**Branch**|**Status**|
 |:--------:|:--------:|
 |`master`|[![BuddyBuild](https://dashboard.buddybuild.com/api/statusImage?appID=5989d561311ed200016aec58&branch=master&build=latest)](https://dashboard.buddybuild.com/apps/5989d561311ed200016aec58/build/latest?branch=master)|
