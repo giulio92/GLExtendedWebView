@@ -1,7 +1,7 @@
 # GLExtendedWebView
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/giulio92/GLExtendedWebView/develop/GitHub%20Page/Images/logo.png" width="675">
+    <img src="https://raw.githubusercontent.com/giulio92/GLExtendedWebView/master/GitHub%20Page/Images/logo.png" width="675">
 </p>
 
 |**Branch**|**Status**|
