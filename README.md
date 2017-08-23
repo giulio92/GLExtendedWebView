@@ -17,7 +17,7 @@
 ## What it is
 GLExtendedWebView is a drop-in, ready to use, `WKWebView` subclass that brings Interface Builder compatibility to `WKWebView`, something that Apple [seems](http://www.openradar.me/23699297) to have forgot.
 
-### Why I created it
+## Why I created it
 If you try to create a `WKWebView` using Interface Builder and you look for it in the object library the only thing you would find is `UIWebView` which Apple itself does not recommend:
 
 From Apple's `WKWebView` [documentation](https://developer.apple.com/documentation/webkit/wkwebview):
@@ -33,7 +33,7 @@ init?(coder: NSCoder)
 
 has not been implemented in `WKWebView`. So in the end you will probably end up creating it programmatically in your `UIViewController`, but, unless you also apply some `NSLayoutConstraint`s manually, it won't fit the screen on every device and/or update automatically upon rotation.
 
-### How to use / Installation
+## How to use / Installation
 1. [Download](https://github.com/giulio92/GLExtendedWebView/archive/master.zip) the project
 2. Add the `GLExtendedWebView` class to your project
 3. Add a `UIView` in your `UIViewController`
