@@ -41,10 +41,10 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="1FQ-pz-BfI" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="7Gy-Y4-cOa"/>
-                            <constraint firstItem="1FQ-pz-BfI" firstAttribute="centerX" secondItem="JoV-Eq-DRv" secondAttribute="centerX" id="TXE-aV-qao"/>
-                            <constraint firstItem="JoV-Eq-DRv" firstAttribute="bottom" secondItem="1FQ-pz-BfI" secondAttribute="bottom" id="es8-tx-aOV"/>
-                            <constraint firstItem="1FQ-pz-BfI" firstAttribute="leading" secondItem="JoV-Eq-DRv" secondAttribute="leading" id="qAF-vw-kHk"/>
+                            <constraint firstAttribute="bottom" secondItem="1FQ-pz-BfI" secondAttribute="bottom" id="9um-vT-c4k"/>
+                            <constraint firstItem="1FQ-pz-BfI" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Epd-X8-mbD"/>
+                            <constraint firstItem="1FQ-pz-BfI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aBs-tS-FUi"/>
+                            <constraint firstItem="1FQ-pz-BfI" firstAttribute="leading" secondItem="JoV-Eq-DRv" secondAttribute="leading" id="l6h-Qm-3zA"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="JoV-Eq-DRv"/>
                     </view>
