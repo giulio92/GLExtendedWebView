@@ -74,4 +74,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		// appropriate. See also applicationDidEnterBackground:.
 	}
 }
-
