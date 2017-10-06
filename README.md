@@ -41,6 +41,6 @@ has not been implemented in `WKWebView`. So in the end you will probably end up 
 5. Apply the required `NSLayoutConstraint` using the Interface Builder
 
 ## Requirements
-- Xcode 8.0+
-- Swift 3.0+
-- iOS 8.0+
+- Xcode 9.0+
+- Swift 4.0+
+- iOS 9.0+
