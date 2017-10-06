@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="EcB-Bm-FBJ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EcB-Bm-FBJ">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -14,7 +15,7 @@
             <objects>
                 <navigationController storyboardIdentifier="navigationViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="EcB-Bm-FBJ" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="rwj-kf-pcm">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -29,10 +30,6 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController storyboardIdentifier="viewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="GLExtendedWebView" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -45,10 +42,11 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="1FQ-pz-BfI" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="7Gy-Y4-cOa"/>
-                            <constraint firstItem="1FQ-pz-BfI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TXE-aV-qao"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="1FQ-pz-BfI" secondAttribute="bottom" id="es8-tx-aOV"/>
-                            <constraint firstItem="1FQ-pz-BfI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="qAF-vw-kHk"/>
+                            <constraint firstItem="1FQ-pz-BfI" firstAttribute="centerX" secondItem="JoV-Eq-DRv" secondAttribute="centerX" id="TXE-aV-qao"/>
+                            <constraint firstItem="JoV-Eq-DRv" firstAttribute="bottom" secondItem="1FQ-pz-BfI" secondAttribute="bottom" id="es8-tx-aOV"/>
+                            <constraint firstItem="1FQ-pz-BfI" firstAttribute="leading" secondItem="JoV-Eq-DRv" secondAttribute="leading" id="qAF-vw-kHk"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="JoV-Eq-DRv"/>
                     </view>
                     <navigationItem key="navigationItem" title="GLExtendedWebView" id="x64-bc-U5w"/>
                     <connections>
