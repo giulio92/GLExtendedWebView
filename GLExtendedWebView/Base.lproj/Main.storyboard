@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EcB-Bm-FBJ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EcB-Bm-FBJ">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -43,7 +43,7 @@
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="1FQ-pz-BfI" secondAttribute="bottom" id="9um-vT-c4k"/>
                             <constraint firstItem="1FQ-pz-BfI" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Epd-X8-mbD"/>
-                            <constraint firstItem="1FQ-pz-BfI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aBs-tS-FUi"/>
+                            <constraint firstItem="1FQ-pz-BfI" firstAttribute="centerX" secondItem="JoV-Eq-DRv" secondAttribute="centerX" id="aBs-tS-FUi"/>
                             <constraint firstItem="1FQ-pz-BfI" firstAttribute="leading" secondItem="JoV-Eq-DRv" secondAttribute="leading" id="l6h-Qm-3zA"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="JoV-Eq-DRv"/>
